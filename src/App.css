@@ -1,0 +1,17 @@
+@import 'modern-normalize/modern-normalize.css';
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+
+.title {
+  font-size: 35px;
+  text-align: left;
+}
+
+.title-contacts {
+  font-size: 25px;
+  text-align: left;
+}

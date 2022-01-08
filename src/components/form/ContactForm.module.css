@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  width: 600px;
+  border: 2px solid black;
+  border-radius: 4px;
+
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: rgba(0, 255, 255, 0.171);
+}
+
+.label {
+  display: grid;
+  margin: 10px;
+  color: black;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.button {
+  height: 25px;
+  margin: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(4, 90, 250);
+  cursor: pointer;
+}
+
+.input {
+  width: 200px;
+  height: 25px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
